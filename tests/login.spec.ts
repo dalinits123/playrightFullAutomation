@@ -1,6 +1,6 @@
 import { test, expect } from '../fixtures/base.js';
 import { invalidLoginData } from '../utils/data-source.js'
-import { JsonUtils } from '../utils/json-utlis.js'
+import { JsonUtils } from '../utils/json-utils.js'
 import { ExcelUtils } from '../utils/excel-utils.js'
 
 test.describe("OrangeHRM Login Function  Tests", () => {

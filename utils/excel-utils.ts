@@ -1,10 +1,10 @@
+import XLSX from 'xlsx'
 
 const EXCEL_FILE = 'test-data/hrm-data.xlsx'
-import XLSX from 'xlsx'
 
 class ExcelUtils {
 
-    static readExcel(sheetname: string): any {
+    static getSheetToJson(sheetname: string): any {
 
         const workbook = XLSX.readFile(EXCEL_FILE)
         const sheet = workbook.Sheets[sheetname]
